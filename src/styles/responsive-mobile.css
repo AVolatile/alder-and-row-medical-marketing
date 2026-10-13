@@ -1,0 +1,1386 @@
+@media (max-width: 767px) {
+  .container {
+    width: calc(100% - 40px);
+  }
+  .utility {
+    height: 29px;
+    padding-inline: 20px;
+    font-size: 8px;
+  }
+  .utility > a {
+    font-size: 7px;
+    gap: 4px;
+  }
+  .utility > a > svg {
+    display: none;
+  }
+  .header-inner {
+    padding-inline: 20px;
+    min-height: 80px;
+    gap: 14px;
+  }
+  .header-actions {
+    gap: 12px;
+  }
+  .header-book {
+    display: none;
+  }
+  .sign-in {
+    font-size: 10px;
+  }
+  .logo {
+    font-size: 26px;
+    gap: 8px;
+  }
+  .logo-caption {
+    font-size: 6px;
+  }
+  .logo > svg {
+    width: 27px;
+  }
+  .home-hero {
+    grid-template-columns: 1fr;
+    padding: 28px 20px 40px;
+    gap: 35px;
+  }
+  .hero-copy {
+    padding: 10px 0 0;
+  }
+  .hero-copy > .eyebrow {
+    font-size: 8px;
+    margin-bottom: 23px;
+  }
+  .hero-copy h1 {
+    font-size: clamp(58px, 11vw, 78px);
+    margin-bottom: 22px;
+  }
+  .hero-copy p {
+    font-size: 15px;
+    max-width: 340px;
+  }
+  .hero-copy .button {
+    font-size: 12px;
+    min-height: 49px;
+    padding-inline: 20px;
+    gap: 16px;
+  }
+  .hero-footnote {
+    margin-top: 22px;
+    font-size: 9px;
+  }
+  .hero-visual {
+    min-height: 375px;
+    border-radius: 8px 8px 65px 8px;
+  }
+  .hero-visual > img {
+    object-position: center 43%;
+  }
+  .hero-float {
+    left: 14px;
+    right: 28px;
+    bottom: 23px;
+    padding: 16px;
+    gap: 12px;
+  }
+  .hero-float .float-icon {
+    display: grid;
+    width: 39px;
+    height: 42px;
+  }
+  .hero-float strong {
+    font-size: 14px;
+  }
+  .hero-float .eyebrow {
+    font-size: 6px;
+  }
+  .hero-float > div > span:last-child {
+    font-size: 8px;
+  }
+  .hero-mark {
+    width: 62px;
+    height: 70px;
+    padding: 14px;
+    right: -5px;
+    bottom: -12px;
+  }
+  .quick-strip {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+  .quick-strip > a {
+    padding: 18px 3px !important;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+    gap: 18px;
+    font-size: 13px;
+  }
+  .quick-strip > a:last-child {
+    border-bottom: 0;
+  }
+  .quick-strip > a > svg:last-child {
+    display: block;
+  }
+  .quick-strip small {
+    font-size: 10px;
+  }
+  .section {
+    padding-block: 55px;
+  }
+  .section-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 24px;
+  }
+  .section-heading h2 {
+    font-size: 31px;
+    line-height: 1.25;
+  }
+  .section-heading p {
+    font-size: 13px;
+    max-width: 360px;
+  }
+  .section-heading .eyebrow {
+    font-size: 8px;
+  }
+  .section-heading .button {
+    min-height: 35px;
+    padding-block: 0;
+    font-size: 11px;
+  }
+  .home-services {
+    gap: 12px;
+  }
+  .service-card {
+    padding: 21px 18px;
+    gap: 25px;
+    min-height: 207px;
+  }
+  .service-card h3 {
+    font-size: 18px;
+  }
+  .service-card p {
+    font-size: 10px;
+    line-height: 1.7;
+  }
+  .service-card .card-arrow {
+    top: 22px;
+    right: 15px;
+    width: 18px;
+  }
+  .service-icon > svg {
+    width: 27px;
+  }
+  .preventative-link {
+    flex-wrap: wrap;
+    gap: 7px 10px;
+    font-size: 10px;
+  }
+  .preventative-link > a {
+    width: 100%;
+    margin-left: 29px;
+    font-size: 10px;
+  }
+  .split {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .split h2 {
+    font-size: 37px;
+  }
+  .split p {
+    font-size: 14px;
+  }
+  .prescription-section {
+    padding-block: 55px;
+  }
+  .prescription-section .split {
+    gap: 37px;
+  }
+  .prescription-preview {
+    padding: 23px;
+    transform: rotate(-1deg);
+    margin-inline: 4px;
+  }
+  .prescription-preview h3 {
+    font-size: 25px;
+  }
+  .rx-mini {
+    flex-wrap: nowrap;
+  }
+  .rx-mini .badge {
+    margin-left: 0;
+    font-size: 7px;
+  }
+  .rx-mini strong {
+    font-size: 11px;
+  }
+  .rx-mini > div > span {
+    font-size: 7px;
+  }
+  .pickup-progress {
+    font-size: 7px;
+  }
+  .pickup-progress svg {
+    width: 12px;
+  }
+  .appointment-art {
+    min-height: 345px;
+  }
+  .appointment-promo > div:last-child h2 {
+    font-size: 38px;
+  }
+  .inline-services > a {
+    font-size: 12px !important;
+  }
+  .location-promo {
+    padding-block: 55px;
+  }
+  .home-map {
+    min-height: 300px;
+  }
+  .map-location {
+    width: calc(100% - 45px);
+    max-width: 350px;
+  }
+  .member-preview-row {
+    grid-template-columns: 1fr;
+  }
+  .member-preview-row > div {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+    padding: 24px;
+    position: relative;
+  }
+  .member-preview-row > div > svg {
+    position: absolute;
+    left: 24px;
+    top: 29px;
+  }
+  .member-preview-row strong,
+  .member-preview-row p {
+    margin-left: 43px;
+  }
+  .member-preview-row strong {
+    font-size: 19px;
+    margin-top: 0;
+  }
+  .member-preview-row p {
+    font-size: 12px;
+  }
+  .resources-section {
+    padding-block: 55px;
+  }
+  .grid-three {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+  .article-art {
+    height: 230px;
+  }
+  .article-copy h3 {
+    font-size: 25px;
+  }
+  .article-copy > .eyebrow {
+    font-size: 9px;
+  }
+  .article-copy {
+    padding-bottom: 10px;
+  }
+  .read-article {
+    font-size: 12px;
+  }
+  .cta-band {
+    padding: 32px;
+    flex-direction: column;
+    gap: 27px;
+  }
+  .cta-band h2 {
+    font-size: 33px;
+  }
+  .cta-band > div:nth-child(2) {
+    align-self: flex-start;
+  }
+  .cta-band p {
+    font-size: 12px;
+  }
+  .cta-symbol {
+    right: -35px;
+    bottom: -50px;
+    color: #8b9e8130;
+  }
+  .footer {
+    padding: 40px 20px 23px;
+  }
+  .footer-top {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px 20px;
+  }
+  .footer-top > div:first-child {
+    grid-column: 1/-1;
+  }
+  .footer .logo {
+    font-size: 29px;
+  }
+  .footer .logo .amp {
+    font-size: 23px;
+  }
+  .footer .logo > svg {
+    width: 31px;
+    height: 37px;
+  }
+  .footer .logo-caption {
+    font-size: 7px;
+  }
+  .footer-top p {
+    margin: 16px 0 5px;
+    font-size: 12px;
+  }
+  .footer-top h3 {
+    font-size: 12px;
+    margin-bottom: 13px;
+  }
+  .footer-top > div:not(:first-child) > a {
+    font-size: 11px;
+    margin-bottom: 11px;
+  }
+  .footer-bottom {
+    font-size: 8px;
+    gap: 11px;
+    margin-top: 20px;
+    line-height: 1.8;
+  }
+  .breadcrumbs {
+    font-size: 9px;
+    padding-top: 20px;
+    gap: 8px;
+  }
+  .breadcrumbs > span {
+    gap: 8px;
+  }
+  .page-intro {
+    padding: 42px 0 32px;
+  }
+  .page-intro h1 {
+    font-size: 43px;
+  }
+  .page-intro > .eyebrow {
+    font-size: 8px;
+  }
+  .page-intro p {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+  .detail-hero {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .detail-hero .page-intro h1 {
+    font-size: 44px;
+  }
+  .detail-hero .page-intro p {
+    font-size: 14px;
+  }
+  .service-detail-art {
+    height: 270px;
+  }
+  .service-detail-art > svg {
+    width: 90px;
+  }
+  .service-hub-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  .service-hub-grid > .service-card {
+    min-height: 220px;
+    padding: 22px 18px;
+    gap: 35px;
+  }
+  .service-hub-grid > .service-card h3 {
+    font-size: 18px;
+  }
+  .process-grid {
+    grid-template-columns: 1fr;
+    gap: 5px;
+    margin-block: 20px;
+  }
+  .process-number {
+    margin-bottom: 16px;
+    padding-top: 15px;
+  }
+  .process-grid h3 {
+    font-size: 25px;
+  }
+  .process-grid p {
+    font-size: 14px;
+  }
+  .detail-content {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 40px 0 50px;
+  }
+  .detail-content h2 {
+    font-size: 29px;
+  }
+  .detail-content .section {
+    padding-bottom: 20px;
+  }
+  .expectations {
+    margin-bottom: 35px;
+  }
+  .expectations li {
+    padding: 14px;
+    gap: 15px;
+  }
+  .expectations li p {
+    font-size: 13px;
+  }
+  .detail-aside {
+    position: static;
+  }
+  .detail-aside h3 {
+    font-size: 26px;
+  }
+  .accordion summary {
+    font-size: 14px;
+    padding-block: 19px;
+  }
+  .accordion details p {
+    font-size: 13px;
+  }
+  .pharmacy-photo {
+    height: 290px;
+  }
+  .feature-card {
+    padding: 27px;
+  }
+  .feature-card h3 {
+    font-size: 24px;
+  }
+  .feature-card p {
+    min-height: 0;
+    font-size: 13px;
+  }
+  .transfer-panel {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    padding: 28px 23px;
+  }
+  .transfer-panel h2 {
+    font-size: 31px;
+  }
+  .locator-filters {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 22px;
+  }
+  .filter-checks {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .locator-layout {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .locator-map {
+    position: relative;
+    top: 0;
+    grid-row: 1;
+    height: 300px;
+  }
+  .locator-results {
+    gap: 18px;
+  }
+  .map-selected {
+    bottom: 39px;
+    left: 20px;
+    right: 20px;
+    padding: 13px 15px;
+  }
+  .map-selected strong {
+    font-size: 14px;
+  }
+  .map-selected span {
+    font-size: 9px;
+  }
+  .map-demo {
+    font-size: 6px;
+    left: 12px;
+  }
+  .map-park {
+    padding: 15px;
+    font-size: 5px;
+  }
+  .park-one {
+    width: 100px;
+    height: 55px;
+  }
+  .park-two {
+    width: 65px;
+    height: 65px;
+  }
+  .map-city {
+    font-size: 10px;
+  }
+  .map-road {
+    font-size: 6px;
+  }
+  .map-pin {
+    width: 32px;
+    height: 32px;
+  }
+  .map-pin:after {
+    width: 9px;
+    height: 9px;
+    left: 10px;
+    top: 10px;
+  }
+  .location-card {
+    padding: 23px;
+  }
+  .location-card h3 {
+    font-size: 23px;
+  }
+  .location-card-actions {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+  .location-card-actions .button {
+    font-size: 10px;
+  }
+  .location-card .service-tags > span {
+    font-size: 8px;
+  }
+  .location-card > .location-access {
+    font-size: 9px;
+  }
+  .location-status > span:last-child {
+    font-size: 10px;
+  }
+  .retail-sign {
+    height: 280px;
+    margin-top: 10px;
+  }
+  .retail-sign > strong {
+    font-size: 43px;
+  }
+  .location-details-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin-block: 30px;
+  }
+  .location-details-grid h2 {
+    font-size: 30px;
+  }
+  .location-details-grid .section-heading {
+    flex-direction: row;
+    align-items: center;
+  }
+  .location-details-grid > .section-heading .badge {
+    font-size: 8px;
+  }
+  .access-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    font-size: 10px;
+  }
+  .hours-card {
+    padding: 28px;
+  }
+  .hours-card dl {
+    font-size: 12px;
+  }
+  .booking-top .eyebrow {
+    font-size: 7px;
+    max-width: 210px;
+  }
+  .booking-top .badge {
+    font-size: 8px;
+  }
+  .stepper {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    overflow-x: auto;
+    gap: 5px;
+    justify-content: flex-start;
+  }
+  .stepper li {
+    min-width: 45px;
+  }
+  .stepper small {
+    font-size: 0;
+    height: 0;
+  }
+  .stepper .current small {
+    font-size: 8px;
+    height: auto;
+    white-space: nowrap;
+  }
+  .stepper .current {
+    min-width: 105px;
+  }
+  .stepper li > span {
+    width: 28px;
+    height: 28px;
+    font-size: 9px;
+  }
+  .stepper li:before {
+    top: 14px;
+  }
+  .booking-layout {
+    grid-template-columns: 1fr;
+    gap: 26px;
+  }
+  .booking-title {
+    font-size: 34px;
+  }
+  .booking-content > .eyebrow {
+    font-size: 8px;
+  }
+  .booking-summary {
+    position: relative;
+    top: 0;
+    order: 2;
+    padding: 24px;
+  }
+  .booking-summary h2 {
+    font-size: 25px;
+  }
+  .booking-summary dl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 12px;
+  }
+  .booking-summary dl > div:last-child {
+    grid-column: 1/-1;
+  }
+  .booking-summary dl > div {
+    padding-block: 13px;
+  }
+  .selection-grid {
+    gap: 12px;
+    margin-block: 25px;
+  }
+  .choice-card {
+    padding: 21px 17px;
+    min-height: 165px;
+    gap: 16px;
+  }
+  .choice-card.chosen {
+    padding: 20px 16px;
+  }
+  .choice-card > strong {
+    font-size: 17px;
+  }
+  .choice-card > span:not(.choice-check) {
+    font-size: 10px;
+  }
+  .choice-check {
+    width: 19px;
+    height: 19px;
+    right: 9px;
+    top: 10px;
+  }
+  .location-choice {
+    min-height: 106px;
+    padding: 20px;
+    gap: 15px;
+  }
+  .location-choice.chosen {
+    padding: 19px;
+  }
+  .date-grid {
+    gap: 10px;
+  }
+  .date-choice {
+    padding: 20px 8px;
+  }
+  .date-choice.chosen {
+    padding: 19px 7px;
+  }
+  .date-choice > strong {
+    font-size: 27px;
+  }
+  .time-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  .booking-controls .button {
+    font-size: 11px;
+    gap: 8px;
+    padding-inline: 17px;
+  }
+  .review-list > div {
+    padding: 16px;
+    grid-template-columns: 80px 1fr;
+    gap: 12px;
+    font-size: 12px;
+  }
+  .review-list dt {
+    font-size: 10px;
+  }
+  .review-list small {
+    font-size: 10px;
+  }
+  .booking-content .actions .button {
+    width: 100%;
+  }
+  .toast-region {
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    max-width: none;
+  }
+  .toast {
+    padding: 16px;
+  }
+  .modal {
+    padding: 23px;
+  }
+  .modal-header h2 {
+    font-size: 24px;
+  }
+  .modal-header {
+    gap: 15px;
+  }
+  .member-shell {
+    padding-top: 24px;
+  }
+  .member-nav {
+    gap: 25px;
+  }
+  .member-nav a {
+    font-size: 11px;
+    padding-block: 13px;
+  }
+  .member-nav > a > svg {
+    width: 16px;
+  }
+  .member-nav-heading .eyebrow {
+    font-size: 7px;
+  }
+  .member-nav-heading .badge {
+    font-size: 8px;
+  }
+  .member-welcome {
+    margin: 35px 0 25px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .member-welcome h1 {
+    font-size: 43px;
+  }
+  .member-welcome p {
+    font-size: 13px;
+  }
+  .member-welcome .button {
+    font-size: 11px;
+    min-height: 44px;
+  }
+  .member-main-grid {
+    gap: 18px;
+  }
+  .member-panel {
+    padding: 22px;
+  }
+  .member-panel .section-heading {
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .member-panel .section-heading h2 {
+    font-size: 21px;
+  }
+  .member-panel .section-heading .button {
+    font-size: 8px;
+    gap: 4px;
+  }
+  .appointment-card {
+    padding: 17px 14px;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  .date-tile {
+    width: 53px;
+    height: 69px;
+  }
+  .date-tile strong {
+    font-size: 26px;
+  }
+  .appointment-copy h3 {
+    font-size: 17px;
+  }
+  .appointment-copy p {
+    font-size: 9px;
+    line-height: 1.8;
+  }
+  .appointment-copy .badge {
+    font-size: 8px;
+  }
+  .appointment-actions {
+    width: 100%;
+    justify-content: flex-start;
+    border-top: 1px solid var(--line);
+    padding-top: 12px;
+  }
+  .rx-overview-row strong {
+    font-size: 12px;
+  }
+  .rx-overview-row .badge {
+    font-size: 8px;
+  }
+  .member-secondary-grid {
+    grid-template-columns: 1fr;
+  }
+  .member-secondary-grid .member-panel {
+    grid-column: auto;
+  }
+  .preferred-store,
+  .benefit-preview {
+    padding: 26px;
+  }
+  .preferred-store .eyebrow,
+  .benefit-preview .eyebrow {
+    font-size: 8px;
+  }
+  .preferred-store h2,
+  .benefit-preview h2 {
+    font-size: 30px;
+  }
+  .preferred-store p,
+  .benefit-preview p {
+    font-size: 12px;
+  }
+  .preferred-store .actions {
+    justify-content: flex-start;
+    gap: 30px;
+    font-size: 11px;
+  }
+  .preferred-store .button,
+  .benefit-preview .button {
+    font-size: 11px;
+  }
+  .account-task {
+    font-size: 12px;
+  }
+  .account-task small {
+    font-size: 9px;
+  }
+  .recent-activity {
+    margin-top: 35px;
+  }
+  .recent-activity h2 {
+    font-size: 25px;
+  }
+  .recent-activity li {
+    padding: 14px 0;
+    gap: 10px;
+    font-size: 10px;
+  }
+  .recent-activity small {
+    font-size: 7px;
+  }
+  .recent-activity .badge {
+    font-size: 7px;
+  }
+  .member-demo-note {
+    padding-bottom: 28px;
+  }
+  .member-demo-note p {
+    font-size: 9px;
+  }
+  .member-page-header {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 34px 0 25px;
+    gap: 18px;
+  }
+  .member-page-header h1 {
+    font-size: 39px;
+  }
+  .member-page-header p {
+    font-size: 12px;
+  }
+  .prescription-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .prescription-card {
+    padding: 24px;
+  }
+  .prescription-card h2 {
+    font-size: 26px;
+  }
+  .rx-actions .button {
+    font-size: 11px;
+    padding-inline: 16px;
+  }
+  .rx-secondary-actions {
+    justify-content: space-between;
+    gap: 14px;
+  }
+  .rx-secondary-actions button {
+    font-size: 10px;
+  }
+  .tabs {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .tabs button {
+    font-size: 11px;
+    padding-inline: 15px;
+  }
+  .appointments-list .appointment-card {
+    padding: 22px 17px;
+  }
+  .benefits-hero {
+    padding: 28px;
+    gap: 23px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .benefits-credit {
+    font-size: 60px;
+  }
+  .benefits-hero h2 {
+    font-size: 28px;
+  }
+  .benefit-card p {
+    min-height: 0;
+  }
+  .benefit-card {
+    padding: 27px;
+  }
+  .profile-layout {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  .profile-form {
+    padding: 24px;
+  }
+  .profile-form .form-grid {
+    gap: 0;
+    margin-top: 20px;
+  }
+  .login-layout {
+    grid-template-columns: 1fr;
+    gap: 35px;
+    padding-block: 40px 55px;
+  }
+  .login-art {
+    min-height: 340px;
+    padding: 30px;
+    order: 2;
+  }
+  .login-art h2 {
+    font-size: 35px;
+    margin-top: 20px;
+    max-width: 250px;
+  }
+  .login-art p {
+    max-width: 260px;
+    font-size: 12px;
+  }
+  .login-art .art-arch {
+    width: 130px;
+    height: 170px;
+    left: auto;
+    right: 30px;
+    bottom: -75px;
+    opacity: 0.5;
+  }
+  .login-art .art-arch svg {
+    width: 50px;
+    height: 70px;
+  }
+  .login-form h1 {
+    font-size: 42px;
+  }
+  .resource-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .article-filters {
+    gap: 7px;
+  }
+  .article-filters button {
+    font-size: 10px;
+    padding-inline: 14px;
+  }
+  .article-detail {
+    margin: 40px auto 55px;
+  }
+  .article-detail h1 {
+    font-size: 40px;
+  }
+  .article-detail .article-intro {
+    font-size: 17px;
+  }
+  .article-detail > .article-art {
+    height: 250px;
+  }
+  .article-detail section h2 {
+    font-size: 28px;
+  }
+  .article-detail section p {
+    font-size: 14px;
+  }
+  .article-meta {
+    font-size: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .brand-hero {
+    padding: 35px 25px;
+    min-height: 390px;
+    margin-block: 35px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+  }
+  .brand-hero .logo {
+    font-size: 42px;
+  }
+  .brand-hero .logo-caption {
+    font-size: 8px;
+  }
+  .brand-hero .amp {
+    font-size: 34px;
+  }
+  .brand-hero .logo > svg {
+    width: 47px;
+    height: 65px;
+  }
+  .brand-hero p {
+    font-size: 12px;
+    max-width: 300px;
+    position: relative;
+    z-index: 2;
+  }
+  .brand-hero-symbol {
+    position: absolute;
+    right: 20px;
+    bottom: -20px;
+    width: 85px;
+    height: 115px;
+    opacity: 0.3;
+  }
+  .brand-hero > .eyebrow {
+    margin: 0;
+  }
+  .brand-section {
+    padding-block: 35px;
+  }
+  .brand-section .section-heading h2 {
+    font-size: 30px;
+  }
+  .palette-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .swatch {
+    height: 130px;
+  }
+  .type-grid,
+  .component-showcase {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .type-sample {
+    padding: 26px;
+  }
+  .type-sample h3 {
+    font-size: 36px;
+  }
+  .type-sample .letter-sample {
+    font-size: 20px;
+  }
+  .component-demo {
+    padding: 24px;
+  }
+  .brand-photo-direction {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  .brand-photo-direction img {
+    height: 260px;
+  }
+  .brand-section .retail-sign {
+    height: 300px;
+  }
+  .campaign-intro {
+    display: block;
+  }
+  .campaign-index {
+    display: none;
+  }
+  .campaign-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 24px 15px;
+  }
+  .campaign-art {
+    padding: 19px;
+    aspect-ratio: 4/5;
+  }
+  .campaign-art .logo {
+    font-size: 13px;
+    gap: 4px;
+  }
+  .campaign-art .logo .amp {
+    font-size: 10px;
+  }
+  .campaign-art .logo > svg {
+    width: 16px;
+    height: 21px;
+  }
+  .campaign-art .logo-caption {
+    font-size: 3.5px;
+  }
+  .campaign-art h3 {
+    font-size: 25px;
+    margin: 24px 0 15px;
+  }
+  .campaign-art p {
+    font-size: 8px;
+  }
+  .campaign-art .campaign-cta {
+    font-size: 7px;
+    gap: 5px;
+  }
+  .campaign-art .campaign-cta > svg {
+    width: 12px;
+  }
+  .campaign-art > .campaign-demo {
+    font-size: 4px;
+    bottom: 7px;
+    right: 9px;
+  }
+  .campaign-art > svg {
+    width: 65px;
+    height: 65px;
+    bottom: 35px;
+    right: 0;
+  }
+  .campaign-card > span {
+    font-size: 7px;
+    margin-top: 11px;
+  }
+  .campaign-card .button {
+    font-size: 9px;
+    gap: 7px;
+    min-height: 38px;
+  }
+  .campaign-channel {
+    padding-top: 45px;
+  }
+  .display-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  .display-grid > div:first-child {
+    width: min(300px, 100%);
+  }
+  .display-grid > div:last-child {
+    grid-column: auto;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0;
+  }
+  .display-wide {
+    aspect-ratio: 728/90;
+    min-height: 70px;
+    flex-wrap: nowrap;
+    gap: 12px;
+  }
+  .display-wide .mini-wordmark {
+    font-size: 10px;
+    white-space: nowrap;
+  }
+  .display-wide h3 {
+    font-size: 12px;
+  }
+  .display-wide .display-cta {
+    font-size: 6px;
+    padding: 5px;
+  }
+  .display-billboard {
+    aspect-ratio: 970/250;
+    min-height: 130px;
+    flex-wrap: nowrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  .display-billboard .mini-wordmark {
+    font-size: 12px;
+    white-space: nowrap;
+  }
+  .display-billboard h3 {
+    font-size: 22px;
+    max-width: 210px;
+  }
+  .display-billboard .display-cta {
+    font-size: 6px;
+    padding: 6px;
+    white-space: nowrap;
+  }
+  .poster-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .poster {
+    width: 100%;
+    max-width: 450px;
+    margin-inline: auto;
+    padding: 35px;
+    aspect-ratio: 2/3;
+  }
+  .poster .logo {
+    font-size: 25px;
+    gap: 8px;
+  }
+  .poster .logo .amp {
+    font-size: 20px;
+  }
+  .poster .logo > svg {
+    width: 27px;
+    height: 35px;
+  }
+  .poster .logo-caption {
+    font-size: 6px;
+  }
+  .poster h3 {
+    font-size: clamp(39px, 9.4vw, 51px);
+    margin-top: 50px;
+  }
+  .poster p {
+    font-size: 13px;
+  }
+  .poster > .poster-foot {
+    font-size: 11px;
+  }
+  .email-grid {
+    grid-template-columns: 1fr;
+  }
+  .email-grid > article:last-child {
+    grid-column: auto;
+    max-width: none;
+  }
+  .email-body {
+    padding: 27px;
+  }
+  .email-body h3 {
+    font-size: 31px;
+  }
+  .email-body p {
+    font-size: 12px;
+  }
+  .email-chrome {
+    font-size: 10px;
+  }
+  .case-hero {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    padding: 45px 0 35px;
+  }
+  .case-hero h1 {
+    font-size: 58px;
+  }
+  .case-hero h1 span {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+  .case-hero p {
+    font-size: 14px;
+  }
+  .case-meta dl {
+    font-size: 11px;
+  }
+  .case-meta dl > div {
+    margin-bottom: 13px;
+  }
+  .case-cover {
+    padding: 32px 25px;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .case-cover-brand .logo {
+    font-size: 36px;
+    gap: 10px;
+  }
+  .case-cover-brand .amp {
+    font-size: 29px;
+  }
+  .case-cover-brand .logo-caption {
+    font-size: 7px;
+  }
+  .case-cover-brand h2 {
+    font-size: 37px;
+    margin-top: 30px;
+  }
+  .case-cover-ui {
+    padding: 20px;
+    margin-inline: 8px;
+  }
+  .case-cover-ui h3 {
+    font-size: 28px;
+  }
+  .case-cover-ui img {
+    height: 160px;
+  }
+  .case-section {
+    grid-template-columns: 1fr;
+    gap: 13px;
+    padding-block: 40px;
+  }
+  .case-section > .eyebrow {
+    font-size: 8px;
+    margin-bottom: 8px;
+  }
+  .case-section h2 {
+    font-size: 32px;
+  }
+  .case-section p {
+    font-size: 14px;
+  }
+  .case-section .case-points {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  .case-points > div {
+    padding: 24px;
+  }
+  .case-points h3 {
+    font-size: 23px;
+  }
+  .case-points p {
+    font-size: 12px;
+  }
+  .case-route-map {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .case-route-map a {
+    padding: 13px;
+    font-size: 10px;
+  }
+  .case-section .campaign-art h3 {
+    font-size: 25px;
+  }
+  .case-section .type-grid {
+    grid-template-columns: 1fr;
+  }
+  .accessibility-content h2 {
+    font-size: 28px;
+  }
+  .accessibility-content p,
+  .accessibility-content li {
+    font-size: 14px;
+  }
+  .section-spacer {
+    height: 45px;
+  }
+}

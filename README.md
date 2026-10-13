@@ -100,6 +100,8 @@ The provider in `src/components/demo-provider.tsx` connects booking, prescriptio
 - Pickup changes and task-reminder preferences update the same prescription record.
 - Booking validates service/location compatibility, dates, times, account mode, and contact fields before creating a demo appointment.
 - Booking confirmation offers a calendar download explicitly marked **DEMO ONLY**.
+- Upcoming visits are ordered by date and time across the dashboard and appointment list; booking a later visit preserves the earliest visit as the next appointment.
+- Pickup activity is derived from the current prescription records and follows location changes.
 - Cancelling a demo appointment requires confirmation and updates history.
 - Offers can be selected once; demo credit balances update accordingly.
 - Profile changes update the greeting and preferred location.
@@ -127,7 +129,7 @@ For an existing local Chrome installation on macOS:
 PLAYWRIGHT_CHROME_PATH='/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' npm test
 ```
 
-Tests cover all application routes, internal links and assets, console errors, noindex metadata, heading structure, the seven-width major-route matrix, axe WCAG A/AA smoke checks, booking, refill simulation, pickup changes, reminder toggles, cancellation, profile validation, member offers, login feedback, mobile navigation, skip navigation, and dialog keyboard behavior. Tests run against the static production export. Reports are written to `playwright-report/`; traces and failure screenshots go to `test-results/`.
+Tests cover all application routes, internal links and assets, console errors, noindex metadata, heading structure, the seven-width major-route matrix, axe WCAG A/AA smoke checks, booking, refill simulation, pickup changes and dashboard activity, reminder toggles, chronological appointment ordering, cancellation, profile validation, member offers, login feedback, mobile navigation, skip navigation, and dialog keyboard behavior. Tests run against the static production export. Reports are written to `playwright-report/`; traces and failure screenshots go to `test-results/`.
 
 ## Creative exports
 
@@ -154,4 +156,5 @@ See `portfolio-assets/EXPORT-GUIDE.md` for the 1280 × 960 cover composition, ro
 ## Concept disclaimer
 
 This is a self-initiated concept project created to demonstrate enterprise healthcare design, accessibility, brand-system thinking, frontend development, campaign execution, and cross-channel digital experience design. It is not a licensed pharmacy or healthcare provider and does not claim real medical services, prescriptions, patients, professional credentials, coverage, or clinical outcomes.
+
 # alder-and-row-medical-marketing

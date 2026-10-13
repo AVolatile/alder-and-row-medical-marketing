@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "seasonal-services",
+    "subject": "A little planning for the season ahead.",
+    "eyebrow": "A MOMENT FOR YOUR NEXT SEASON",
+    "title": "A little planning. A place nearby.",
+    "copy": "Explore seasonal service concepts and choose a neighborhood location. A qualified professional would confirm service suitability.",
+    "cta": "Explore seasonal services",
+    "color": "peach",
+    "href": "/vaccinations/"
+  },
+  {
+    "slug": "prescription-ready",
+    "subject": "A demo pickup update from Alder & Row.",
+    "eyebrow": "YOUR DEMO PHARMACY UPDATE",
+    "title": "One less thing on your list.",
+    "copy": "Your fictional sample prescription A is marked ready at Maple Square. Take a look at the details in your demo member space.",
+    "cta": "View demo prescription",
+    "color": "sage",
+    "href": "/member/prescriptions/"
+  },
+  {
+    "slug": "appointment-confirmation",
+    "subject": "Your demo visit, all together.",
+    "eyebrow": "DEMO APPOINTMENT CONFIRMATION",
+    "title": "A little time for you.",
+    "copy": "Wellness consultation · October 22, 2026 · 10:30 am ET · Fictional Maple Square. A clear confirmation concept for your member space.",
+    "cta": "View demo appointments",
+    "color": "sand",
+    "href": "/member/appointments/"
+  }
+]

@@ -1,0 +1,410 @@
+.booking-page {
+  padding-bottom: 75px;
+}
+.booking-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0 22px;
+}
+.booking-top .eyebrow {
+  margin: 0;
+}
+.stepper {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 45px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid var(--line);
+}
+.stepper li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-direction: column;
+  position: relative;
+  flex: 1;
+  color: #5d6c64;
+}
+.stepper li:before {
+  content: '';
+  height: 1px;
+  background: #c5cebe;
+  position: absolute;
+  top: 15px;
+  left: calc(-50% + 17px);
+  right: calc(50% + 17px);
+}
+.stepper li:first-child:before {
+  display: none;
+}
+.stepper li > span {
+  border: 1px solid #b8c3af;
+  display: grid;
+  place-items: center;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  font-size: 10px;
+  background: var(--cream);
+  z-index: 1;
+}
+.stepper small {
+  font-size: 9px;
+}
+.stepper .current {
+  color: var(--forest);
+  font-weight: 700;
+}
+.stepper .current > span,
+.stepper .complete > span {
+  background: var(--forest);
+  color: var(--cream);
+  border-color: var(--forest);
+}
+.booking-layout {
+  display: grid;
+  grid-template-columns: 1fr 315px;
+  gap: 65px;
+  align-items: start;
+}
+.booking-content > .eyebrow {
+  font-size: 9px;
+}
+.booking-title {
+  font-size: 38px;
+  letter-spacing: -0.045em;
+  outline: none;
+}
+.booking-title:focus-visible {
+  outline: 2px solid #b56c2c;
+  outline-offset: 8px;
+}
+.booking-content > p {
+  font-size: 14px;
+}
+.selection-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-block: 30px;
+}
+.choice-card {
+  position: relative;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  text-align: left;
+  min-height: 150px;
+  border: 1px solid #bfc7b8;
+  background: white;
+  border-radius: 7px;
+  transition: background 0.2s;
+}
+.choice-card:hover {
+  background: #f0f3e9;
+}
+.choice-card > strong {
+  font-family: var(--font-display);
+  font-size: 18px;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+}
+.choice-card > span:not(.choice-check) {
+  font-size: 11px;
+  color: var(--muted);
+  max-width: 230px;
+}
+.choice-card.chosen,
+.date-choice.chosen,
+.time-choice.chosen {
+  border: 2px solid var(--forest);
+  background: #e7efe2;
+  padding: 21px;
+}
+.choice-check {
+  display: none;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 22px;
+  height: 22px;
+  background: var(--forest);
+  color: white;
+  border-radius: 50%;
+  place-items: center;
+}
+.chosen > .choice-check {
+  display: grid;
+}
+.selection-list {
+  display: grid;
+  gap: 14px;
+  margin-block: 25px;
+}
+.location-choice {
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  min-height: 108px;
+  padding-right: 50px;
+}
+.location-choice > div > * {
+  display: block;
+}
+.location-choice strong {
+  font-size: 19px;
+  font-family: var(--font-display);
+}
+.location-choice > div > span {
+  font-size: 12px;
+  color: var(--muted);
+  margin: 5px 0;
+}
+.location-choice small {
+  font-size: 9px;
+}
+.date-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-block: 30px;
+}
+.date-choice {
+  border: 1px solid #bdc7b5;
+  background: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  padding: 22px 10px;
+  border-radius: 7px;
+}
+.date-choice span {
+  font-size: 11px;
+}
+.date-choice strong {
+  font-size: 29px;
+  font-family: var(--font-display);
+  font-weight: 550;
+}
+.date-choice.chosen {
+  padding: 21px 9px;
+}
+.time-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-block: 30px;
+}
+.time-choice {
+  border: 1px solid #bdc7b5;
+  background: white;
+  border-radius: 6px;
+  min-height: 54px;
+  padding: 12px;
+  font-size: 14px;
+}
+.time-choice.chosen {
+  padding: 11px;
+}
+.booking-controls {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 30px;
+  padding-top: 22px;
+  border-top: 1px solid var(--line);
+}
+.booking-summary {
+  position: sticky;
+  top: 30px;
+  background: var(--sand);
+  padding: 28px;
+  border-radius: 8px;
+}
+.booking-summary > .eyebrow {
+  font-size: 8px;
+}
+.booking-summary h2 {
+  font-size: 27px;
+  line-height: 1.3;
+  margin-bottom: 28px;
+}
+.booking-summary dl {
+  margin: 0 0 20px;
+}
+.booking-summary dl > div {
+  border-top: 1px solid #d1d6c8;
+  padding: 18px 0;
+}
+.booking-summary dt {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 10px;
+  color: var(--muted);
+  margin-bottom: 7px;
+}
+.booking-summary dd {
+  font-size: 12px;
+  margin: 0;
+  font-weight: 550;
+}
+.booking-summary dd small {
+  display: block;
+  font-size: 10px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+.booking-summary > small {
+  font-size: 9px;
+  color: var(--muted);
+  display: block;
+}
+.form-grid {
+  display: grid;
+  gap: 6px;
+  margin-top: 25px;
+}
+.consent {
+  margin-top: 20px;
+}
+.validation-summary {
+  background: #fae6df;
+  color: var(--error);
+  padding: 14px;
+  border-radius: 5px;
+  margin: 25px 0 0;
+  font-size: 13px;
+}
+.review-list {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  margin: 28px 0;
+}
+.review-list > div {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  padding: 18px 22px;
+  border-bottom: 1px solid var(--line);
+  gap: 20px;
+  font-size: 13px;
+}
+.review-list > div:last-child {
+  border: 0;
+}
+.review-list dt {
+  font-size: 11px;
+  color: var(--muted);
+}
+.review-list dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+.review-list small {
+  display: block;
+  color: var(--muted);
+  font-size: 11px;
+  margin-top: 3px;
+}
+.confirmation-icon {
+  display: grid;
+  place-items: center;
+  background: var(--sage);
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  margin: 30px 0;
+}
+.confirmation-reference {
+  padding: 22px;
+  background: var(--sand);
+  border-radius: 7px;
+  margin: 25px 0;
+}
+.confirmation-reference > .eyebrow {
+  margin-bottom: 5px;
+}
+.confirmation-reference strong {
+  font-size: 24px;
+  letter-spacing: 0.03em;
+}
+.toast-region {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  max-width: 450px;
+  z-index: 150;
+}
+.toast {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--forest);
+  color: white;
+  box-shadow: 0 10px 40px #0003;
+  padding: 19px 20px;
+  border-radius: 8px;
+}
+.toast p {
+  font-size: 12px;
+  line-height: 1.7;
+  color: white;
+  margin: 0;
+}
+.toast button {
+  border: none;
+  background: none;
+  color: white;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+}
+.modal {
+  width: min(560px, calc(100% - 32px));
+  max-height: calc(100% - 64px);
+  padding: 30px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--cream);
+  color: var(--ink);
+  box-shadow: 0 20px 100px #0003;
+}
+.modal::backdrop {
+  background: #0c281f80;
+  backdrop-filter: blur(3px);
+}
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+.modal-header h2 {
+  font-size: 26px;
+  margin: 0;
+}
+.icon-button {
+  border: 1px solid var(--line);
+  width: 44px;
+  height: 44px;
+  background: transparent;
+  border-radius: 5px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+.modal .review-list {
+  margin-top: 20px;
+}
+.modal > p {
+  font-size: 13px;
+}

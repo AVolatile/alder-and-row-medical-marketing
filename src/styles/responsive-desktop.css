@@ -1,0 +1,668 @@
+@media (min-width: 1500px) {
+  .home-hero {
+    gap: 50px;
+  }
+  .hero-visual {
+    min-height: 560px;
+  }
+  .hero-copy {
+    padding-top: 50px;
+  }
+}
+@media (max-width: 1199px) {
+  .container {
+    width: calc(100% - 64px);
+  }
+  .header-inner {
+    padding-inline: 32px;
+    gap: 22px;
+  }
+  .desktop-nav {
+    gap: 18px;
+    font-size: 11px;
+  }
+  .header-actions {
+    gap: 15px;
+  }
+  .logo {
+    font-size: 25px;
+  }
+  .logo > svg {
+    width: 27px;
+  }
+  .logo-caption {
+    font-size: 6px;
+  }
+  .sign-in span {
+    display: none;
+  }
+  .home-hero {
+    padding-inline: 32px;
+    gap: 30px;
+  }
+  .hero-copy h1 {
+    font-size: 72px;
+  }
+  .hero-visual {
+    min-height: 505px;
+  }
+  .hero-float {
+    left: -20px;
+    right: 20px;
+    padding: 17px;
+  }
+  .hero-float strong {
+    font-size: 14px;
+  }
+  .quick-strip > a {
+    padding-inline: 20px;
+    font-size: 11px;
+  }
+  .split {
+    gap: 55px;
+  }
+  .prescription-section .split {
+    gap: 60px;
+  }
+  .service-card {
+    padding: 23px 20px;
+    min-height: 220px;
+  }
+  .service-card h3 {
+    font-size: 18px;
+  }
+  .service-card p {
+    font-size: 11px;
+  }
+  .service-card .card-arrow {
+    right: 15px;
+  }
+  .prescription-preview {
+    padding: 23px;
+  }
+  .detail-hero {
+    gap: 40px;
+  }
+  .detail-content {
+    gap: 55px;
+  }
+  .location-details-grid {
+    gap: 40px;
+  }
+  .booking-layout {
+    gap: 35px;
+    grid-template-columns: 1fr 290px;
+  }
+  .member-main-grid {
+    gap: 18px;
+  }
+  .member-panel {
+    padding: 22px;
+  }
+  .appointment-card {
+    gap: 15px;
+    padding: 18px;
+  }
+  .rx-overview-row .badge {
+    font-size: 7px;
+  }
+  .member-secondary-grid {
+    gap: 18px;
+  }
+  .preferred-store,
+  .benefit-preview {
+    padding: 24px;
+  }
+  .display-grid {
+    grid-template-columns: 270px 1fr 145px;
+    gap: 18px;
+  }
+  .display-wide h3 {
+    font-size: 13px;
+  }
+  .display-wide .mini-wordmark {
+    font-size: 12px;
+  }
+  .display-wide {
+    padding: 12px;
+    gap: 12px;
+  }
+  .display-billboard {
+    padding: 20px;
+  }
+  .display-billboard h3 {
+    font-size: 23px;
+  }
+  .poster h3 {
+    font-size: 34px;
+  }
+  .poster {
+    padding: 27px;
+  }
+  .email-body {
+    padding: 21px;
+  }
+  .case-section {
+    gap: 40px;
+    grid-template-columns: 185px 1fr;
+  }
+  .case-hero {
+    gap: 40px;
+  }
+  .footer {
+    padding-inline: 32px;
+  }
+  .footer-top {
+    gap: 30px;
+  }
+  .brand-hero {
+    padding: 45px;
+  }
+  .brand-hero .logo {
+    font-size: 49px;
+  }
+  .brand-hero .amp {
+    font-size: 39px;
+  }
+  .brand-hero-symbol {
+    width: 130px;
+    height: 200px;
+  }
+}
+@media (max-width: 1023px) {
+  .desktop-nav {
+    display: none;
+  }
+  .menu-toggle {
+    display: flex;
+  }
+  .sign-in span {
+    display: inline;
+  }
+  .header-inner {
+    min-height: 86px;
+  }
+  .utility {
+    padding-inline: 32px;
+  }
+  .home-hero {
+    padding-top: 28px;
+    gap: 25px;
+  }
+  .hero-copy {
+    padding-top: 25px;
+  }
+  .hero-copy h1 {
+    font-size: 62px;
+  }
+  .hero-copy p {
+    font-size: 14px;
+  }
+  .hero-copy > .eyebrow {
+    font-size: 7px;
+  }
+  .hero-copy .actions {
+    gap: 10px;
+  }
+  .hero-copy .button {
+    font-size: 11px;
+    padding: 11px 15px;
+    gap: 10px;
+  }
+  .hero-visual {
+    min-height: 460px;
+  }
+  .hero-float {
+    left: 15px;
+    right: 15px;
+    bottom: 20px;
+    padding: 15px;
+    gap: 10px;
+  }
+  .hero-float .float-icon {
+    display: none;
+  }
+  .hero-float > div > span:last-child {
+    font-size: 8px;
+  }
+  .hero-float .eyebrow {
+    font-size: 6px;
+  }
+  .hero-float strong {
+    font-size: 13px;
+  }
+  .home-services {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .service-card {
+    min-height: 210px;
+    gap: 24px;
+  }
+  .quick-strip > a {
+    padding-inline: 13px;
+    gap: 10px;
+  }
+  .quick-strip > a > svg:last-child {
+    display: none;
+  }
+  .quick-strip small {
+    font-size: 8px;
+  }
+  .section {
+    padding-block: 65px;
+  }
+  .section-heading h2 {
+    font-size: 32px;
+  }
+  .section-heading p {
+    font-size: 13px;
+  }
+  .section-heading .button {
+    font-size: 11px;
+  }
+  .split {
+    gap: 38px;
+  }
+  .split h2 {
+    font-size: 33px;
+  }
+  .split p {
+    font-size: 13px;
+  }
+  .prescription-section .split {
+    gap: 40px;
+  }
+  .rx-mini {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 13px;
+  }
+  .rx-mini .badge {
+    margin-left: 45px;
+  }
+  .pickup-progress {
+    gap: 8px;
+    font-size: 7px;
+  }
+  .pickup-progress svg {
+    width: 12px;
+  }
+  .prescription-preview h3 {
+    font-size: 22px;
+  }
+  .appointment-art {
+    min-height: 360px;
+  }
+  .time-float {
+    left: 18px;
+    right: 18px;
+    padding: 18px;
+    gap: 12px;
+  }
+  .time-float strong {
+    font-size: 12px;
+  }
+  .time-float span {
+    font-size: 8px;
+  }
+  .appointment-promo .inline-services > a {
+    font-size: 11px;
+  }
+  .member-preview-row > div {
+    padding: 23px;
+  }
+  .member-preview-row strong {
+    font-size: 17px;
+  }
+  .member-preview-row p {
+    font-size: 11px;
+  }
+  .article-art {
+    height: 190px;
+  }
+  .article-copy h3 {
+    font-size: 20px;
+  }
+  .grid-three {
+    gap: 20px;
+  }
+  .cta-band {
+    padding: 40px;
+  }
+  .cta-band h2 {
+    font-size: 32px;
+  }
+  .cta-band .eyebrow {
+    font-size: 8px;
+  }
+  .cta-band p {
+    font-size: 11px;
+  }
+  .footer-top {
+    grid-template-columns: 1.3fr 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  .footer .logo {
+    font-size: 22px;
+    gap: 7px;
+  }
+  .footer .logo-caption {
+    font-size: 5px;
+  }
+  .footer .logo .amp {
+    font-size: 18px;
+  }
+  .footer .logo > svg {
+    width: 25px;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .footer-bottom span {
+    max-width: none;
+  }
+  .detail-hero {
+    gap: 35px;
+  }
+  .detail-hero .page-intro h1 {
+    font-size: 42px;
+  }
+  .service-detail-art {
+    height: 300px;
+  }
+  .detail-content {
+    grid-template-columns: 1fr 250px;
+    gap: 40px;
+  }
+  .detail-aside {
+    padding: 24px;
+  }
+  .service-hub-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .feature-card {
+    padding: 23px;
+  }
+  .feature-card h3 {
+    font-size: 20px;
+  }
+  .feature-card p {
+    font-size: 12px;
+  }
+  .locator-filters {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .filter-checks {
+    grid-column: 1/-1;
+    padding: 0;
+    display: flex;
+    gap: 25px;
+  }
+  .locator-layout {
+    gap: 22px;
+    grid-template-columns: 1.1fr 1fr;
+  }
+  .location-card {
+    padding: 20px;
+  }
+  .location-card h3 {
+    font-size: 19px;
+  }
+  .location-card-actions {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 2px;
+  }
+  .location-card-actions .button-text {
+    justify-content: center;
+  }
+  .location-status > span:last-child {
+    font-size: 9px;
+  }
+  .locator-map {
+    height: 530px;
+  }
+  .map-park {
+    font-size: 6px;
+  }
+  .location-details-grid {
+    grid-template-columns: 1fr 295px;
+    gap: 35px;
+  }
+  .access-grid {
+    grid-template-columns: 1fr;
+  }
+  .retail-sign > strong {
+    font-size: 35px;
+  }
+  .booking-layout {
+    grid-template-columns: 1fr 250px;
+    gap: 26px;
+  }
+  .booking-summary {
+    padding: 23px;
+  }
+  .booking-title {
+    font-size: 31px;
+  }
+  .choice-card {
+    padding: 18px;
+    min-height: 140px;
+  }
+  .choice-card.chosen {
+    padding: 17px;
+  }
+  .choice-card > strong {
+    font-size: 16px;
+  }
+  .choice-card > span:not(.choice-check) {
+    font-size: 10px;
+  }
+  .time-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .date-grid {
+    gap: 10px;
+  }
+  .stepper small {
+    font-size: 8px;
+  }
+  .member-main-grid {
+    grid-template-columns: 1fr;
+  }
+  .member-secondary-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .member-secondary-grid .member-panel {
+    grid-column: 1/-1;
+  }
+  .member-nav {
+    gap: 24px;
+  }
+  .member-nav a {
+    font-size: 11px;
+  }
+  .prescription-grid {
+    gap: 17px;
+  }
+  .prescription-card {
+    padding: 23px;
+  }
+  .prescription-card h2 {
+    font-size: 23px;
+  }
+  .rx-actions .button {
+    font-size: 10px;
+    padding-inline: 12px;
+  }
+  .profile-layout {
+    gap: 30px;
+    grid-template-columns: 1fr 250px;
+  }
+  .profile-form {
+    padding: 25px;
+  }
+  .profile-form .form-grid {
+    grid-template-columns: 1fr;
+  }
+  .profile-aside {
+    padding: 24px;
+  }
+  .login-layout {
+    gap: 50px;
+  }
+  .login-art {
+    padding: 32px;
+    min-height: 560px;
+  }
+  .login-art h2 {
+    font-size: 38px;
+  }
+  .campaign-grid {
+    gap: 20px;
+  }
+  .campaign-art {
+    padding: 22px;
+  }
+  .campaign-art h3 {
+    font-size: 25px;
+    margin-top: 23px;
+  }
+  .campaign-art p {
+    font-size: 9px;
+  }
+  .campaign-art .campaign-cta {
+    font-size: 8px;
+  }
+  .campaign-art .logo {
+    font-size: 15px;
+  }
+  .display-grid {
+    grid-template-columns: 250px 1fr;
+  }
+  .display-grid > div:last-child {
+    grid-column: 1/-1;
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+  }
+  .display-skyscraper {
+    width: 160px;
+  }
+  .display-wide {
+    aspect-ratio: auto;
+    min-height: 90px;
+    flex-wrap: wrap;
+  }
+  .display-wide .display-cta {
+    font-size: 8px;
+  }
+  .display-billboard {
+    aspect-ratio: auto;
+    min-height: 160px;
+    flex-wrap: wrap;
+  }
+  .display-billboard h3 {
+    font-size: 22px;
+  }
+  .poster-grid {
+    gap: 20px;
+  }
+  .poster h3 {
+    font-size: 29px;
+  }
+  .poster p {
+    font-size: 10px;
+  }
+  .poster .logo {
+    font-size: 18px;
+  }
+  .poster .amp {
+    font-size: 15px;
+  }
+  .poster .logo > svg {
+    width: 21px;
+  }
+  .poster {
+    padding: 22px;
+  }
+  .email-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .email-grid > article:last-child {
+    grid-column: 1/-1;
+    max-width: 450px;
+  }
+  .brand-hero {
+    padding: 35px;
+  }
+  .brand-hero .logo {
+    font-size: 41px;
+    gap: 15px;
+  }
+  .brand-hero .logo > svg {
+    width: 50px;
+    height: 70px;
+  }
+  .brand-hero .amp {
+    font-size: 33px;
+  }
+  .brand-hero .logo-caption {
+    font-size: 8px;
+  }
+  .brand-hero-symbol {
+    width: 110px;
+  }
+  .palette-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .brand-photo-direction {
+    gap: 30px;
+  }
+  .case-hero h1 {
+    font-size: 64px;
+  }
+  .case-hero h1 span {
+    font-size: 27px;
+  }
+  .case-cover {
+    padding: 40px;
+    gap: 30px;
+  }
+  .case-cover-brand .logo {
+    font-size: 28px;
+  }
+  .case-cover-brand .amp {
+    font-size: 23px;
+  }
+  .case-cover-brand .logo-caption {
+    font-size: 6px;
+  }
+  .case-cover-brand h2 {
+    font-size: 33px;
+  }
+  .case-section {
+    grid-template-columns: 150px 1fr;
+    gap: 25px;
+  }
+  .case-section h2 {
+    font-size: 33px;
+  }
+  .case-route-map {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .case-section .case-points {
+    gap: 15px;
+  }
+  .case-points > div {
+    padding: 20px;
+  }
+  .case-points h3 {
+    font-size: 18px;
+  }
+  .case-section .campaign-art h3 {
+    font-size: 25px;
+  }
+}

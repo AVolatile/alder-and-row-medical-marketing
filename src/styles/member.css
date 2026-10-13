@@ -1,0 +1,563 @@
+.member-shell {
+  padding-block: 32px 0;
+}
+.member-nav-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 13px;
+}
+.member-nav-heading > .eyebrow {
+  margin: 0;
+  font-size: 9px;
+}
+.member-nav {
+  display: flex;
+  border-bottom: 1px solid var(--line);
+  gap: 31px;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+.member-nav > a {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 12px;
+  padding: 16px 0;
+  white-space: nowrap;
+  border-bottom: 2px solid transparent;
+}
+.member-nav > a[aria-current] {
+  border-color: var(--forest);
+  font-weight: 650;
+}
+.member-welcome {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  margin: 48px 0 33px;
+}
+.member-welcome .eyebrow {
+  font-size: 8px;
+  margin-bottom: 12px;
+}
+.member-welcome h1 {
+  font-size: 47px;
+  margin-bottom: 13px;
+}
+.member-welcome p {
+  font-size: 14px;
+  margin: 0;
+}
+.member-main-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 23px;
+}
+.member-panel {
+  background: #fff8;
+  border: 1px solid var(--line);
+  padding: 28px;
+  border-radius: 8px;
+}
+.member-panel .section-heading {
+  margin-bottom: 25px;
+  align-items: center;
+}
+.member-panel .section-heading h2 {
+  font-size: 22px;
+}
+.member-panel .section-heading .button {
+  font-size: 9px;
+  gap: 7px;
+}
+.appointment-card {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  padding: 22px;
+  background: var(--cream);
+}
+.date-tile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 65px;
+  height: 78px;
+  flex-shrink: 0;
+  border: 1px solid #bdcbb7;
+  border-radius: 6px;
+  background: var(--sage);
+}
+.date-tile > span {
+  text-transform: uppercase;
+  font-size: 9px;
+  letter-spacing: 0.1em;
+}
+.date-tile > strong {
+  font-family: var(--font-display);
+  font-size: 29px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+.appointment-copy {
+  flex: 1;
+}
+.appointment-copy h3 {
+  font-size: 19px;
+  margin: 8px 0;
+}
+.appointment-copy p {
+  font-size: 11px;
+  margin: 0 0 4px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.member-task {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin: 25px 0 0;
+  padding-top: 22px;
+  border-top: 1px solid var(--line);
+}
+.member-task > div {
+  flex: 1;
+}
+.member-task strong {
+  font-size: 12px;
+}
+.member-task p {
+  font-size: 9px;
+  margin: 3px 0 0;
+}
+.member-task > a {
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+}
+.rx-count {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--line);
+}
+.rx-count > strong {
+  font-family: var(--font-display);
+  font-size: 60px;
+  line-height: 1.1;
+  font-weight: 500;
+}
+.rx-count p {
+  font-size: 11px;
+  margin: 5px 0 0;
+}
+.rx-overview-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--line);
+}
+.rx-overview-row > div {
+  flex: 1;
+}
+.rx-overview-row strong,
+.rx-overview-row span {
+  display: block;
+}
+.rx-overview-row strong {
+  font-size: 11px;
+}
+.rx-overview-row > div > span {
+  font-size: 8px;
+  color: var(--muted);
+  margin-top: 3px;
+}
+.rx-overview-row .badge {
+  font-size: 8px;
+  display: inline-flex;
+}
+.member-secondary-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.15fr;
+  gap: 22px;
+  margin-top: 23px;
+}
+.preferred-store,
+.benefit-preview {
+  padding: 29px;
+  border-radius: 8px;
+}
+.preferred-store > .eyebrow,
+.benefit-preview > .eyebrow {
+  font-size: 7px;
+  margin: 22px 0 8px;
+}
+.preferred-store h2,
+.benefit-preview h2 {
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+.preferred-store p,
+.benefit-preview p {
+  font-size: 11px;
+}
+.preferred-store .actions {
+  font-size: 9px;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+.preferred-store .button,
+.benefit-preview .button {
+  font-size: 10px;
+}
+.member-secondary-grid .member-panel h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.account-task {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-block: 20px;
+  border-bottom: 1px solid var(--line);
+  font-size: 11px;
+}
+.account-task > span {
+  flex: 1;
+}
+.account-task small {
+  display: block;
+  font-size: 8px;
+  color: var(--muted);
+  margin-top: 4px;
+}
+.recent-activity {
+  margin-top: 42px;
+}
+.recent-activity h2 {
+  font-size: 26px;
+}
+.recent-activity ul {
+  list-style: none;
+  padding: 0;
+  border-top: 1px solid var(--line);
+}
+.recent-activity li {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  border-bottom: 1px solid var(--line);
+  padding: 16px;
+  font-size: 12px;
+}
+.recent-activity li > span:not(.badge) {
+  flex: 1;
+}
+.recent-activity small {
+  font-size: 9px;
+  color: var(--muted);
+}
+.member-demo-note {
+  display: flex;
+  gap: 9px;
+  border-top: 1px solid var(--line);
+  padding: 22px 0 25px;
+}
+.member-demo-note p {
+  font-size: 9px;
+  margin: 0;
+}
+.member-page-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  align-items: center;
+  margin: 46px 0 30px;
+}
+.member-page-header h1 {
+  font-size: 42px;
+  margin-bottom: 12px;
+}
+.member-page-header p {
+  font-size: 13px;
+  margin: 0;
+  max-width: 650px;
+}
+.prescription-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+  margin-bottom: 45px;
+}
+.prescription-card {
+  padding: 27px;
+  background: #fff9;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+.prescription-card-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+}
+.prescription-card h2 {
+  font-size: 24px;
+  margin: 23px 0 8px;
+}
+.prescription-card > .rx-strength {
+  font-size: 11px;
+  margin-bottom: 20px;
+}
+.prescription-card dl {
+  margin: 20px 0;
+}
+.prescription-card dl > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  font-size: 11px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+}
+.prescription-card dt {
+  color: var(--muted);
+}
+.prescription-card dd {
+  margin: 0;
+  font-weight: 500;
+  text-align: right;
+}
+.rx-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+.rx-actions .button {
+  font-size: 11px;
+  padding-inline: 16px;
+}
+.rx-actions .button-text {
+  padding-right: 0;
+}
+.rx-secondary-actions {
+  display: flex;
+  gap: 24px;
+  margin-top: 15px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+.rx-secondary-actions button {
+  font-size: 10px;
+  gap: 8px;
+}
+.rx-review-notice {
+  font-size: 11px;
+  color: #725121;
+  background: #f6e9d2;
+  padding: 12px;
+  border-radius: 5px;
+}
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin: 25px 0;
+}
+.tabs button {
+  border: 1px solid var(--line);
+  background: none;
+  border-radius: 5px;
+  min-height: 43px;
+  padding: 9px 17px;
+  font-size: 12px;
+}
+.tabs button[aria-pressed='true'] {
+  background: var(--forest);
+  color: var(--cream);
+  border-color: var(--forest);
+}
+.appointments-list {
+  display: grid;
+  gap: 19px;
+  margin: 25px 0 45px;
+}
+.appointments-list .appointment-card {
+  background: #fff9;
+}
+.appointment-actions {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.appointment-actions .button {
+  font-size: 11px;
+}
+.benefits-hero {
+  padding: 35px;
+  background: var(--sage);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  margin: 25px 0 28px;
+}
+.benefits-credit {
+  font-size: 64px;
+  font-family: var(--font-display);
+  font-weight: 500;
+  line-height: 1;
+  white-space: nowrap;
+}
+.benefits-credit > small {
+  display: block;
+  font-size: 10px;
+  font-family: var(--font-body);
+  margin-top: 13px;
+  letter-spacing: 0.1em;
+}
+.benefits-hero h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.benefits-hero p {
+  font-size: 12px;
+  margin: 0;
+  max-width: 600px;
+}
+.benefit-card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 28px;
+  background: #fff9;
+}
+.benefit-card h2 {
+  font-size: 26px;
+  margin: 23px 0 12px;
+}
+.benefit-card p {
+  font-size: 13px;
+  min-height: 80px;
+}
+.benefit-card .badge {
+  margin-bottom: 20px;
+}
+.benefit-card > .button {
+  width: 100%;
+}
+.profile-layout {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 70px;
+  margin-bottom: 45px;
+}
+.profile-form {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 32px;
+  background: #fff9;
+}
+.profile-form h2 {
+  font-size: 25px;
+}
+.profile-form .form-grid {
+  grid-template-columns: 1fr 1fr;
+  gap: 15px 22px;
+}
+.profile-form h2:nth-of-type(2) {
+  margin-top: 35px;
+}
+.profile-aside {
+  background: var(--sand);
+  border-radius: 8px;
+  padding: 30px;
+  align-self: start;
+}
+.profile-aside h2 {
+  font-size: 25px;
+  margin-top: 20px;
+}
+.profile-aside p {
+  font-size: 12px;
+}
+.login-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: start;
+  padding-block: 65px 80px;
+}
+.login-art {
+  border-radius: 10px;
+  min-height: 590px;
+  padding: 48px;
+  background: var(--sage);
+  position: relative;
+  overflow: hidden;
+}
+.login-art h2 {
+  font-size: 45px;
+  margin-top: 40px;
+  position: relative;
+  z-index: 2;
+}
+.login-art p {
+  position: relative;
+  font-size: 14px;
+  max-width: 330px;
+  z-index: 2;
+}
+.login-art .art-arch {
+  position: absolute;
+  bottom: -55px;
+  left: calc(50% - 110px);
+  background: var(--peach);
+  box-shadow:
+    0 0 0 20px #d5dfca,
+    0 0 0 21px #9aa88c55,
+    0 0 0 45px #cddbc3;
+}
+.login-form h1 {
+  font-size: 44px;
+  margin-top: 10px;
+}
+.login-form > p {
+  font-size: 14px;
+}
+.login-form > form {
+  margin-top: 30px;
+}
+.login-form form > .button {
+  width: 100%;
+  margin-block: 16px;
+}
+.login-options {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  font-size: 11px;
+}
+.login-options button {
+  font-size: 11px;
+}
+.login-form .notice {
+  margin-top: 24px;
+}
+.login-form .demo-login {
+  margin-top: 15px;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}

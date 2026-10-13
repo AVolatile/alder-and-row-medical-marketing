@@ -1,0 +1,377 @@
+{
+  "date": "2026-10-13",
+  "project": "Alder & Row",
+  "framework": "Next.js 16.4.0",
+  "browser": "Local Google Chrome via Playwright",
+  "environment": "macOS; Node 20.15.1",
+  "checks": {
+    "typescript": "passed",
+    "lint": "passed; zero errors and warnings",
+    "productionBuild": "passed; static export",
+    "applicationRoutes": 32,
+    "browserChecksPassed": 68,
+    "browserChecksFailed": 0,
+    "routeLinkAssetConsoleChecks": 32,
+    "majorRoutesAtSevenWidths": 63,
+    "emailReflowChecks": 21,
+    "automatedAccessibilityApplicationRoutes": 17,
+    "automatedAccessibilityEmailTemplates": 3,
+    "dependencyVulnerabilities": 0,
+    "unitChecksPassed": 1,
+    "totalChecksPassed": 69
+  },
+  "responsiveWidths": [320, 375, 430, 768, 1024, 1280, 1440],
+  "executionNote": "The complete 69-test suite passed in one run after fixing member appointment ordering and pickup activity propagation. This includes 68 browser checks and one domain regression test. Screenshot and accessibility checks wait for loaded page content.",
+  "limits": [
+    "Automated accessibility and selected keyboard smoke checks are not formal WCAG conformance.",
+    "No live backend, healthcare service, authentication, pharmacy transmission, booking, or email delivery is implemented.",
+    "Browser testing used Chrome; Safari, Firefox, real assistive-technology users, and email-client rendering remain future work."
+  ],
+  "tests": [
+    {
+      "name": "route, landmarks, metadata, assets and console: /",
+      "status": "passed",
+      "durationMs": 2170
+    },
+    {
+      "name": "route, landmarks, metadata, assets and console: /pharmacy/",
+      "status": "passed",
+      "durationMs": 409
+    },
+    {
+      "name": "route, landmarks, metadata, assets and console: /prescriptions/",
+      "status": "passed",
+      "durationMs": 331
+    },
+    {
+      "name": "route, landmarks, metadata, assets and console: /vaccinations/",
+      "status": "passed",
+      "durationMs": 328
+    },
+    {
+      "name": "route, landmarks, metadata, assets and console: /health-services/",
+      "status": "passed",
+      "durationMs": 315
+    },
+    {
+      "name": "route, landmarks, metadata, assets and console: /locations/",
+      "status": "passed",
+      "durationMs": 552
+    },
+    {
+      "name": "route, landmarks, metadata, assets and console: /appointments/",
+      "status": "passed",
+      "durationMs": 355
+    },
+    {
+      "name": "route, landmarks, metadata, assets and console: /resources/",
+      "status": "passed",
+      "durationMs": 327
+    },
+    {
+      "name": "route, landmarks, metadata, assets and console: /campaign/",
+      "status": "passed",
+      "durationMs": 344
+    },
+    {
+      "name": "route, landmarks, metadata, assets and console: /brand/",
+      "status": "passed",
+      "durationMs": 571
+    },
+    {
+      "name": "route, landmarks, metadata, assets and console: /case-study/",
+      "status": "passed",
+      "durationMs": 343
+    },
+    {
+      "name": "route, landmarks, metadata, assets and console: /login/",
+      "status": "passed",
+      "durationMs": 289
+    },
+    {
+      "name": "route, landmarks, metadata, assets and console: /accessibility/",
+      "status": "passed",
+      "durationMs": 275
+    },
+    {
+      "name": "route, landmarks, metadata, assets and console: /member/",
+      "status": "passed",
+      "durationMs": 324
+    },
+    {
+      "name": "route, landmarks, metadata, assets and console: /member/prescriptions/",
+      "status": "passed",
+      "durationMs": 544
+    },
+    {
+      "name": "route, landmarks, metadata, assets and console: /member/benefits/",
+      "status": "passed",
+      "durationMs": 311
+    },
+    {
+      "name": "route, landmarks, metadata, assets and console: /member/appointments/",
+      "status": "passed",
+      "durationMs": 304
+    },
+    {
+      "name": "route, landmarks, metadata, assets and console: /member/profile/",
+      "status": "passed",
+      "durationMs": 295
+    },
+    {
+      "name": "route, landmarks, metadata, assets and console: /health-services/vaccinations/",
+      "status": "passed",
+      "durationMs": 290
+    },
+    {
+      "name": "route, landmarks, metadata, assets and console: /health-services/screenings/",
+      "status": "passed",
+      "durationMs": 282
+    },
+    {
+      "name": "route, landmarks, metadata, assets and console: /health-services/wellness-consultations/",
+      "status": "passed",
+      "durationMs": 293
+    },
+    {
+      "name": "route, landmarks, metadata, assets and console: /health-services/preventative-services/",
+      "status": "passed",
+      "durationMs": 290
+    },
+    {
+      "name": "route, landmarks, metadata, assets and console: /health-services/pharmacy-guidance/",
+      "status": "passed",
+      "durationMs": 291
+    },
+    {
+      "name": "route, landmarks, metadata, assets and console: /locations/maple-square/",
+      "status": "passed",
+      "durationMs": 291
+    },
+    {
+      "name": "route, landmarks, metadata, assets and console: /locations/river-walk/",
+      "status": "passed",
+      "durationMs": 278
+    },
+    {
+      "name": "route, landmarks, metadata, assets and console: /locations/west-garden/",
+      "status": "passed",
+      "durationMs": 284
+    },
+    {
+      "name": "route, landmarks, metadata, assets and console: /locations/cedar-market/",
+      "status": "passed",
+      "durationMs": 546
+    },
+    {
+      "name": "route, landmarks, metadata, assets and console: /resources/a-little-preparation/",
+      "status": "passed",
+      "durationMs": 309
+    },
+    {
+      "name": "route, landmarks, metadata, assets and console: /resources/prescription-routine/",
+      "status": "passed",
+      "durationMs": 263
+    },
+    {
+      "name": "route, landmarks, metadata, assets and console: /resources/neighborhood-location/",
+      "status": "passed",
+      "durationMs": 258
+    },
+    {
+      "name": "route, landmarks, metadata, assets and console: /resources/seasonal-check-in/",
+      "status": "passed",
+      "durationMs": 260
+    },
+    {
+      "name": "route, landmarks, metadata, assets and console: /resources/questions-worth-asking/",
+      "status": "passed",
+      "durationMs": 269
+    },
+    {
+      "name": "responsive major-route matrix: 320px",
+      "status": "passed",
+      "durationMs": 1022
+    },
+    {
+      "name": "responsive major-route matrix: 375px",
+      "status": "passed",
+      "durationMs": 1822
+    },
+    {
+      "name": "responsive major-route matrix: 430px",
+      "status": "passed",
+      "durationMs": 1238
+    },
+    {
+      "name": "responsive major-route matrix: 768px",
+      "status": "passed",
+      "durationMs": 968
+    },
+    {
+      "name": "responsive major-route matrix: 1024px",
+      "status": "passed",
+      "durationMs": 933
+    },
+    {
+      "name": "responsive major-route matrix: 1280px",
+      "status": "passed",
+      "durationMs": 1294
+    },
+    {
+      "name": "responsive major-route matrix: 1440px",
+      "status": "passed",
+      "durationMs": 2018
+    },
+    {
+      "name": "automated accessibility: /",
+      "status": "passed",
+      "durationMs": 723
+    },
+    {
+      "name": "automated accessibility: /locations/",
+      "status": "passed",
+      "durationMs": 580
+    },
+    {
+      "name": "automated accessibility: /appointments/",
+      "status": "passed",
+      "durationMs": 536
+    },
+    {
+      "name": "automated accessibility: /member/",
+      "status": "passed",
+      "durationMs": 570
+    },
+    {
+      "name": "automated accessibility: /member/prescriptions/",
+      "status": "passed",
+      "durationMs": 575
+    },
+    {
+      "name": "automated accessibility: /campaign/",
+      "status": "passed",
+      "durationMs": 1142
+    },
+    {
+      "name": "automated accessibility: /brand/",
+      "status": "passed",
+      "durationMs": 905
+    },
+    {
+      "name": "automated accessibility: /case-study/",
+      "status": "passed",
+      "durationMs": 652
+    },
+    {
+      "name": "automated accessibility: /health-services/",
+      "status": "passed",
+      "durationMs": 526
+    },
+    {
+      "name": "automated accessibility: /login/",
+      "status": "passed",
+      "durationMs": 532
+    },
+    {
+      "name": "automated accessibility: /member/profile/",
+      "status": "passed",
+      "durationMs": 549
+    },
+    {
+      "name": "automated accessibility: /vaccinations/",
+      "status": "passed",
+      "durationMs": 653
+    },
+    {
+      "name": "automated accessibility: /prescriptions/",
+      "status": "passed",
+      "durationMs": 559
+    },
+    {
+      "name": "automated accessibility: /resources/",
+      "status": "passed",
+      "durationMs": 808
+    },
+    {
+      "name": "automated accessibility: /health-services/screenings/",
+      "status": "passed",
+      "durationMs": 538
+    },
+    {
+      "name": "automated accessibility: /locations/maple-square/",
+      "status": "passed",
+      "durationMs": 547
+    },
+    {
+      "name": "automated accessibility: /resources/a-little-preparation/",
+      "status": "passed",
+      "durationMs": 503
+    },
+    {
+      "name": "locator search, empty state, filters, and map selection",
+      "status": "passed",
+      "durationMs": 545
+    },
+    {
+      "name": "eight-step booking validates, retains state, confirms and connects to member appointments",
+      "status": "passed",
+      "durationMs": 2155
+    },
+    {
+      "name": "prescription refill, pickup changes, reminder and native dialog keyboard behavior",
+      "status": "passed",
+      "durationMs": 968
+    },
+    {
+      "name": "profile validation and preferred location update",
+      "status": "passed",
+      "durationMs": 423
+    },
+    {
+      "name": "demo benefit redemption is idempotent",
+      "status": "passed",
+      "durationMs": 285
+    },
+    {
+      "name": "appointment cancellation requires confirmation and updates history",
+      "status": "passed",
+      "durationMs": 422
+    },
+    {
+      "name": "mobile menu, Escape, skip link and keyboard navigation",
+      "status": "passed",
+      "durationMs": 376
+    },
+    {
+      "name": "login validation and password-reset feedback",
+      "status": "passed",
+      "durationMs": 583
+    },
+    {
+      "name": "standalone email previews reflow and meet automated contrast and semantic checks",
+      "status": "passed",
+      "durationMs": 1440
+    },
+    {
+      "name": "creative export sizes and text remain inside their artboards",
+      "status": "passed",
+      "durationMs": 1401
+    },
+    {
+      "name": "upcoming appointments respect date, morning, noon, and midnight without mutating records",
+      "status": "passed",
+      "durationMs": 10
+    },
+    {
+      "name": "changing a ready prescription pickup location updates overview activity",
+      "status": "passed",
+      "durationMs": 1432
+    },
+    {
+      "name": "booking a later visit keeps the earliest appointment first in the list and overview",
+      "status": "passed",
+      "durationMs": 3179
+    }
+  ]
+}

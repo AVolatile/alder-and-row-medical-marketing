@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "prescription-convenience",
+    "label": "Prescription convenience",
+    "headline": "One less errand.\nMore of your day.",
+    "copy": "Keep your pharmacy tasks together, from refill request to pickup.",
+    "cta": "Explore prescriptions",
+    "color": "peach",
+    "icon": "bag"
+  },
+  {
+    "slug": "seasonal-services",
+    "label": "Seasonal vaccination",
+    "headline": "A little planning.\nA place nearby.",
+    "copy": "Explore seasonal services at your neighborhood Alder & Row.",
+    "cta": "Explore vaccinations",
+    "color": "forest",
+    "icon": "shield"
+  },
+  {
+    "slug": "local-services",
+    "label": "Local care services",
+    "headline": "A familiar place.\nA helpful\nconversation.",
+    "copy": "Make time for screenings, wellness conversations, and everyday questions.",
+    "cta": "Find your service",
+    "color": "sage",
+    "icon": "chat"
+  },
+  {
+    "slug": "member-tools",
+    "label": "Member experience",
+    "headline": "Your pharmacy.\nIn your pocket.",
+    "copy": "Pickup updates, refill requests, and appointment details in one place.",
+    "cta": "Meet your member space",
+    "color": "yellow",
+    "icon": "phone"
+  },
+  {
+    "slug": "preventative-care",
+    "label": "Preventative services",
+    "headline": "Make room\nfor a check-in.",
+    "copy": "Find a time for the care conversations you have been meaning to have.",
+    "cta": "Explore appointments",
+    "color": "lilac",
+    "icon": "calendar"
+  },
+  {
+    "slug": "neighborhood-care",
+    "label": "Neighborhood locations",
+    "headline": "Around the corner.\nOn your calendar.",
+    "copy": "Find a neighborhood location and a time that fits.",
+    "cta": "Find Alder & Row",
+    "color": "sand",
+    "icon": "pin"
+  }
+]
